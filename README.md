@@ -63,3 +63,22 @@ Example request: http://localhost:8080/api/bogo/offer2?productPriceList=10,20,30
 /api/bogo/offer3:
 URL: http://localhost:8080/api/bogo/offer3?productPriceList=10,20,30,40,50,50,50,60,60
 Example request: http://localhost:8080/api/bogo/offer3?productPriceList=10,20,30,40,50,50,50,60,60
+
+
+## Swagger
+
+Access Swagger UI:
+Open the browser and navigate to http://localhost:8080/swagger-ui/ or http://localhost:8080/swagger-ui.html.
+
+## Swagger API Documentation
+
+This project uses Swagger to provide interactive API documentation. Swagger UI allows users to explore and test the API endpoints directly from their browser.
+
+### Prerequisites
+
+Make sure you have the project up and running. Swagger UI is typically available at a specific URL once the application is started.
+
+### Accessing Swagger UI
+
+After starting the application, you can access the Swagger UI by navigating to the following URL in your web browser:
+
