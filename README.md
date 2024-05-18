@@ -55,21 +55,28 @@ To use the BOGO offer API endpoints in your Spring Boot application, you need to
 /api/bogo/offer:
 URL: http://localhost:8080/api/bogo/offer?productPriceList=10,20,30,40,50,60
 Example request: http://localhost:8080/api/bogo/offer?productPriceList=10,20,30,40,50,60
+
+![img_1.png](img_1.png)
+
 2.
 /api/bogo/offer2:
 URL: http://localhost:8080/api/bogo/offer2?productPriceList=10,20,30,40,50,50,60,60
 Example request: http://localhost:8080/api/bogo/offer2?productPriceList=10,20,30,40,50,50,60,60
+![img_2.png](img_2.png)
+
 3.
 /api/bogo/offer3:
 URL: http://localhost:8080/api/bogo/offer3?productPriceList=10,20,30,40,50,50,50,60,60
 Example request: http://localhost:8080/api/bogo/offer3?productPriceList=10,20,30,40,50,50,50,60,60
 
+![img_3.png](img_3.png)
 
 ## Swagger
 
 Access Swagger UI:
 Open the browser and navigate to http://localhost:8080/swagger-ui/ or http://localhost:8080/swagger-ui.html.
 
+![img.png](img.png)
 ## Swagger API Documentation
 
 This project uses Swagger to provide interactive API documentation. Swagger UI allows users to explore and test the API endpoints directly from their browser.
