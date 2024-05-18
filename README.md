@@ -10,7 +10,7 @@ This is a Spring Boot application that implements a "Buy One Get One Free" (BOGO
 ## Setup
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-repo/bogo-application.git
+    git clone https://github.com/vjadhav28/BuyOneGetOneService.git
     cd bogo-application
     ```
 
@@ -50,4 +50,16 @@ mvn test
     ```
 
 ## License
-This project is licensed under the MIT License.
+To use the BOGO offer API endpoints in your Spring Boot application, you need to pass the product price list as a request parameter in the URL. The URL format for each endpoint is as follows:
+
+/api/bogo/offer:
+URL: http://localhost:8080/api/bogo/offer?productPriceList=10,20,30,40,50,60
+Example request: http://localhost:8080/api/bogo/offer?productPriceList=10,20,30,40,50,60
+2.
+/api/bogo/offer2:
+URL: http://localhost:8080/api/bogo/offer2?productPriceList=10,20,30,40,50,50,60,60
+Example request: http://localhost:8080/api/bogo/offer2?productPriceList=10,20,30,40,50,50,60,60
+3.
+/api/bogo/offer3:
+URL: http://localhost:8080/api/bogo/offer3?productPriceList=10,20,30,40,50,50,50,60,60
+Example request: http://localhost:8080/api/bogo/offer3?productPriceList=10,20,30,40,50,50,50,60,60
