@@ -2,9 +2,13 @@ package org.example;
 
 import springfox.documentation.service.VendorExtension;
 
-class MyVendorExtension implements VendorExtension {
+class MyVendorExtension implements VendorExtension<String> {
+    private String key;
+    private String value;
+
     public MyVendorExtension(String key, String value) {
-        super();
+        this.key = key;
+        this.value = value;
     }
 
     @Override
@@ -13,7 +17,7 @@ class MyVendorExtension implements VendorExtension {
     }
 
     @Override
-    public Object getValue() {
-        return null;
+    public String getValue() {
+        return this.value;
     }
 }
